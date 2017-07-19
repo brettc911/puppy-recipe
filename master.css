@@ -1,0 +1,41 @@
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 12px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+#searchBox{
+  font-size: 30px;
+  margin-bottom: 40px;
+  border: solid 1px black;
+
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  border-top: solid 1px black;
+  padding-top: 40px;
+
+}
+
+.search-results{
+  border: solid 1px black;
+  width: 20%;
+  height: 175px;
+  margin-bottom: 50px;
+}
